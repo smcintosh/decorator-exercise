@@ -1,22 +1,21 @@
-package ca.mcgill.ecse321.designpatterns.decorator;
+package ca.uwaterloo.cs446.designpatterns.decorator;
 
 import java.util.List;
 
-public class AddSugar extends HotBeverageDecorator {
-
-	public AddSugar(HotBeverage beverage) {
+public class AddMilk extends HotBeverageDecorator {
+	public AddMilk(HotBeverage beverage) {
 		super(beverage);
 	}
 	
 	@Override
 	public double getCost() {
-		return super.getCost() + 0.25;
+		return super.getCost() + 0.5;
 	}
 	
 	@Override
 	public List<String> getIngredients() {
 		List<String> ingredients = super.getIngredients();
-		ingredients.add("Sugar");
+		ingredients.add("Milk");
 		
 		return ingredients;
 	}

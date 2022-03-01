@@ -1,4 +1,4 @@
-package ca.mcgill.ecse321.designpatterns.decorator;
+package ca.uwaterloo.cs446.designpatterns.decorator;
 
 import java.util.ArrayList;
 import java.util.List;

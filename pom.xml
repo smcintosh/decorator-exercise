@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ca.mcgill.ecse321</groupId>
+  <groupId>ca.uwaterloo.cs446</groupId>
   <artifactId>decorator-exercise</artifactId>
-  <version>2018</version>
+  <version>2022</version>
 
   <name>Decorator Exercise</name>
   <url>https://github.com/smcintosh/decorator-exercise</url>

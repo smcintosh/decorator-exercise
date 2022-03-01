@@ -1,4 +1,4 @@
-package ca.mcgill.ecse321.designpatterns.decorator;
+package ca.uwaterloo.cs446.designpatterns.decorator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
